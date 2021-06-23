@@ -1,0 +1,20 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+
+        float Inaltime, Greutate;
+        float f = 3.2f;
+
+        Scanner input = new Scanner(System.in);
+
+        Inaltime = input.nextFloat();
+        Greutate = input.nextFloat();
+
+        Inaltime = Inaltime * Inaltime;
+
+        System.out.println(Greutate / Inaltime);
+
+    }
+}
