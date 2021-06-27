@@ -1,0 +1,20 @@
+public class Main {
+
+    public static void main(String[] args) {
+        String[] Str= new String[6];
+        Str [0] = "lapte";
+        Str [1] = "oua";
+        Str [4] = "faina";
+        Str [5] = "gaini";
+        String fraza ="";
+
+        for(int i=0;i<Str.length;i++) {
+    
+            if (Str[i]!=null) {
+                fraza = fraza + Str[i] + " ";
+            }
+        }
+        System.out.println(fraza);
+     }
+
+}
